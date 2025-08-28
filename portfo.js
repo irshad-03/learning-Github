@@ -35,8 +35,8 @@ document.addEventListener("DOMContentLoaded", function () {
     
     // Certificate data - replace with your actual certificate images and titles
     const certs = [
-        { src: "image_assets/digisaksham.png", title: "Digisaksham Certificate" },
-        { src: "image_assets/salesforce-certi.png", title: "salseforce internship Certificate" },
+        { src: "digisaksham.png", title: "Digisaksham Certificate" },
+        { src: "salesforce-certi.png", title: "salseforce internship Certificate" },
     ];
     
     let currentCert = 0;
@@ -212,4 +212,5 @@ document.addEventListener('DOMContentLoaded', function() {
                     prevSlide(); // Swipe right
                 }
             }
+
         });
